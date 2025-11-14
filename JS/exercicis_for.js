@@ -106,7 +106,7 @@ for (let i = 1; i <= N; i++) {
 16.11.- Escriu un programa que donat dos números N i M, crei i sumi una sèrie com la següent:
 Si N ← 2 i M ← 5
 Sortida per consola: 2 22 222 2222 22222
-La suma de la sèrie és:24690 */
+La suma de la sèrie és:24690 
 
 let N = parseInt(prompt("Introdueix el primer número (N):"));
 let M = parseInt(prompt("Introdueix el segon número (M):"));
@@ -121,4 +121,12 @@ for (let i = 1; i <= M; i++) {
 }
 
 console.log(resultat.trim()); // Mostra la sèrie tota en una línia
-console.log("La suma de la sèrie és: " + suma);
+console.log("La suma de la sèrie és: " + suma);*/
+
+let N = parseInt(prompt("Introdueix un número N:"));
+let linea = "";
+
+for (let i = 1; i <= N; i++) {
+  linea += "*";         // añadimos un asterisco más
+  console.log(linea);   // mostramos la línea actual
+}
