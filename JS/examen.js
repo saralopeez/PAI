@@ -50,7 +50,7 @@ let N = parseInt(prompt("Introdueix un número N:"));
 for (let i = 1; i <= N; i++) {
   console.log(i);
 }
-*/
+
 //amb while
 let N = parseInt(prompt("Introdueix un número N:"));
 let i = 1;
@@ -58,4 +58,13 @@ let i = 1;
 while (i <= N) {
   console.log(i);
   i++;
+}*/
+
+let N= parseInt(prompt("Introdueix el número N:"));
+let i=1
+while(N>=1){
+	console.log("Número:" + i);
+	i++;
+	N--;
 }
+
